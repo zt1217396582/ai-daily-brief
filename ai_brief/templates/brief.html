@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ issue.date }} · AI 早报{% endblock %}
+{% block main %}
+<div class="mast"><p>新闻日期 <time datetime="{{ issue.date }}">{{ issue.date }} · {{ issue.date|weekday }}</time></p>
+<h1>AI 资讯早报</h1>
+<div class="meta"><span>{{ issue.stories|length }} 条入选</span><span>更新于 <time datetime="{{ issue.updated }}">{{ issue.updated|clock }} 香港时间</time></span></div></div>
+{% if issue.stories %}
+<section class="overview" aria-labelledby="overview"><h2 id="overview">标题速览</h2>
+<ol>{% for story in issue.stories %}<li><a href="#story-{{ loop.index }}">{{ story.title }}</a></li>{% endfor %}</ol></section>
+{% for story in issue.stories %}
+<article id="story-{{ loop.index }}"><p class="count">入选来源中有 {{ story.count }} 家独立报道</p>
+<h2>{{ story.title }}</h2><p>{{ story.summary }}</p><p class="impact"><strong>影响</strong> {{ story.impact }}</p>
+<div class="sources"><a href="{{ story.source.url|safe_url }}">原文 · {{ story.source.url|host }} ↗</a>
+{% for ref in story.sources if ref.url != story.source.url %}<a title="{{ ref.title }}" href="{{ ref.url|safe_url }}">{{ ref.url|host }} ↗</a>{% endfor %}</div>
+</article>{% endfor %}
+{% else %}<section><h2>本期无入选资讯</h2><p>已完成检索，未找到能核实在这个自然日有实质进展的 AI 新闻。</p></section>{% endif %}
+<a class="permalink" href="{{ base }}issues/{{ issue.date }}/">本期固定链接 ↗</a>
+{% endblock %}

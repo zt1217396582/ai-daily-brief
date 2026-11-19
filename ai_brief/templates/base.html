@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-Hans"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8f6ef">
+<title>{% block title %}AI 早报{% endblock %}</title>
+<link rel="stylesheet" href="{{ base }}brief.css">
+</head><body>
+<header><nav aria-label="主导航"><a class="brand" href="{{ base }}"><span aria-hidden="true">◒</span> AI 早报</a><a href="{{ base }}archive.html">往期日报 <span aria-hidden="true">↗</span></a></nav></header>
+<main>{% block main %}{% endblock %}</main>
+<footer>AI 早报 <span>香港时间 · UTC+8</span></footer>
+</body></html>

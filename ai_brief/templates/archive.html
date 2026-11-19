@@ -1,0 +1,4 @@
+{% extends "base.html" %}
+{% block title %}往期日报 · AI 早报{% endblock %}
+{% block main %}<div class="mast"><h1>往期日报</h1></div>
+<ul class="archive">{% for d in dates %}<li><a href="issues/{{ d }}/"><time datetime="{{ d }}">{{ d }}</time><span>{{ d|weekday }} ↗</span></a></li>{% endfor %}</ul>{% endblock %}
