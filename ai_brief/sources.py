@@ -1,7 +1,6 @@
 """读取公开网页，仅接受能在原文中验证的发布时间与正文。"""
 import ipaddress
 import json
-import re
 import socket
 from datetime import date, datetime
 from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
@@ -32,7 +31,7 @@ def clean_url(url):
 def publication_time(soup):
     # Prefer explicit publication fields. Modification timestamps can refer to old news.
     values = []
-    for tag in soup.select('meta[property="article:published_time"], meta[itemprop="datePublished"], time[itemprop="datePublished"]'):
+    for tag in soup.select('meta[property="article:published_time"], meta[itemprop="datePublished"], time[itemprop="datePublished"], time.published[datetime]'):
         values.append(tag.get("content") or tag.get("datetime"))
     for tag in soup.select('script[type="application/ld+json"]'):
         try:
@@ -79,8 +78,16 @@ def parse_article(html, url, day: date):
     title_tag = root.select_one("h1") or soup.select_one("h1") or soup.title
     if not title_tag or len(body) < 180:
         return None
+    references = []
+    for a in root.select("p a[href]"):
+        link = clean_url(urljoin(url, a["href"]))
+        dest = urlsplit(link)
+        if (link and dest.hostname != urlsplit(url).hostname and dest.path.strip("/")
+                and dest.hostname not in ("x.com", "twitter.com", "t.co")):
+            references.append(link)
     return {"url": url, "title": title_tag.get_text(" ", strip=True)[:250],
-            "published": published.isoformat(), "body": body[:18000]}
+            "published": published.isoformat(), "body": body[:18000],
+            "references": list(dict.fromkeys(references))[:12]}
 
 
 def fetch(url, day):

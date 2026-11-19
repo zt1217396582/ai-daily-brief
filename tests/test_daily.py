@@ -34,9 +34,9 @@ class DailyTests(unittest.TestCase):
     def test_syndication_and_primary_tie(self):
         articles = [article(f"https://example.org/{n}", DAY) for n in range(5)]
         choices = Selection(events=[
-            Event(origins=[Origin(ids=[0])], primary_ids=[]),
-            Event(origins=[Origin(ids=[1])], primary_ids=[1]),
-            Event(origins=[Origin(ids=[2, 3]), Origin(ids=[4, 2, 10])], primary_ids=[3])])
+            Event(subject="甲", origins=[Origin(ids=[0])], primary_ids=[]),
+            Event(subject="乙", origins=[Origin(ids=[1])], primary_ids=[1]),
+            Event(subject="丙", origins=[Origin(ids=[2, 3]), Origin(ids=[4, 2, 10])], primary_ids=[3])])
         picked = ranked_events(choices, articles)
         self.assertEqual([len(e["sources"]) for e in picked], [2, 1, 1])
         self.assertEqual(picked[0]["candidates"][0], articles[3]["url"])
@@ -65,7 +65,7 @@ class DailyTests(unittest.TestCase):
             api = Mock()
             api.discover.return_value = urls
             api.select.return_value = Selection(events=[
-                Event(origins=[Origin(ids=[i])], primary_ids=[]) for i in range(2)])
+                Event(subject=str(i), origins=[Origin(ids=[i])], primary_ids=[]) for i in range(2)])
             story = {"title": "<示例>", "summary": "摘要", "impact": "对读者的影响"}
             api.summarize.side_effect = [story.copy(), RuntimeError("interruption")]
             with self.assertRaises(RuntimeError):

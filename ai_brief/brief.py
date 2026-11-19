@@ -48,7 +48,7 @@ def ranked_events(selection, articles):
         candidates = [i for origin in origins for i in origin]
         candidates.sort(key=lambda i: i not in primary)
         # Mirrors may supply a readable alternative, but count only once.
-        events.append({"candidates": [articles[i]["url"] for i in candidates],
+        events.append({"subject": event.subject, "candidates": [articles[i]["url"] for i in candidates],
                        "sources": [{"url": articles[group[0]]["url"],
                                     "title": articles[group[0]]["title"]} for group in origins],
                        "has_primary": any(i in primary for i in candidates)})
@@ -90,6 +90,14 @@ def generate(day, root, *, api_factory=NewsAPI, loader=fetch):
         urls = list(dict.fromkeys(u for group in state["searches"].values() for u in group))
         with ThreadPoolExecutor(max_workers=6) as pool:
             items = list(pool.map(lambda u: get_article(u, day, loader), urls))
+            seen = set(urls)
+            follow = []
+            for source, _ in items:
+                for link in (source or {}).get("references", []):
+                    if link not in seen:
+                        seen.add(link)
+                        follow.append(link)
+            items.extend(pool.map(lambda u: get_article(u, day, loader), follow[:24]))
         for article, _ in items:
             if article:
                 cache[article["url"]] = article
@@ -108,7 +116,7 @@ def generate(day, root, *, api_factory=NewsAPI, loader=fetch):
                     if temporary_failure:
                         # Allow another source for this event, retry later if none can be read.
                         continue
-                item = api.summarize(day, article) if article else None
+                item = api.summarize(day, article, event.get("subject", article["title"])) if article else None
                 if item:
                     item["source"] = {"url": article["url"], "title": article["title"]}
                 state["summaries"][url] = item
@@ -123,7 +131,8 @@ def generate(day, root, *, api_factory=NewsAPI, loader=fetch):
         if len(stories) == 8:
             break
     edition = {"date": day.isoformat(), "updated": datetime.now(HK).isoformat(timespec="minutes"),
-               "stories": stories, "usage": state["usage"]}
+               "stories": stories, "usage": state["usage"],
+               "search_sources": state["searches"]}
     save(final, edition)
     checkpoint.unlink(missing_ok=True)
     return edition
