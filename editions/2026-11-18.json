@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-18",
+  "updated": "2026-11-19T13:59+08:00",
+  "stories": [
+    {
+      "title": "微软低成本决策模型 Microsoft-Decision-1.1 正式上线",
+      "summary": "微软正式上线低成本决策模型 Microsoft-Decision-1.1，可通过 Microsoft Foundry、OpenRouter 和 Vercel 使用。新版成本与初代相同，速度超过初代两倍，并支持图像输入。",
+      "impact": "企业软件开发者可用该模型处理请求路由、分类和工作流控制，并在模型置信度不足时让应用暂缓决策。",
+      "source": {
+        "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+        "title": "Microsoft-Decision-1.1 is now generally available for fast, low-cost decision making"
+      },
+      "sources": [
+        {
+          "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/",
+          "title": "Microsoft-Decision-1.1 is now generally available for fast, low-cost decision making"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "微软与 Salesforce 宣布 Copilotforce 合作，Copilot 插件开启公测",
+      "summary": "微软与 Salesforce 在 Ignite 大会上宣布 Copilotforce 合作。Salesforce in Copilot 插件已开启公测，提供逾38项预置销售技能，用户可在现有权限内查询客户信息并执行受支持的业务操作。",
+      "impact": "同时使用 Microsoft 365 和 Salesforce 的销售团队可直接在 Copilot 中查询客户资料、执行受支持的 CRM 操作，减少应用切换；写回 CRM 仍须用户明确确认。",
+      "source": {
+        "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+        "title": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences"
+      },
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+          "title": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "微软携逾40家机构启动AI透明度倡议，拟制定跨供应商治理标准",
+      "summary": "微软在Ignite大会宣布启动AI透明度倡议，联合Adobe等逾40家机构，拟制定跨模型、跨供应商的开放安全与治理标准，让企业能查看智能体访问了什么、独立核验其操作并限制权限。微软计划将相关成果纳入旗下AI产品。",
+      "impact": "如果标准落地，企业安全与合规团队更换智能体底层模型或供应商后，仍可沿用现有工具独立核验和审计智能体的操作。",
+      "source": {
+        "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/",
+        "title": "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents"
+      },
+      "sources": [
+        {
+          "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/",
+          "title": "Microsoft and organizations across industries launch AI Transparency Initiative to strengthen enterprise trust in AI models and agents"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "OpenAI 发布 GPT‑6.2 Astra 和 Sol，收紧高风险网络安全请求限制",
+      "summary": "OpenAI 发布 GPT‑6.2 Astra 和 Sol，面向 ChatGPT Work、Codex 和 OpenAI API 的付费用户及开发者推出。OpenAI 表示，在完成能力评估后，已收紧两款模型对高风险网络安全协助请求的限制。",
+      "impact": "付费用户和开发者可在 ChatGPT Work、Codex 和 API 中使用两款新模型，但提出高风险网络安全请求时，能获得的协助将受到更严格的限制。",
+      "source": {
+        "url": "https://ai.info/daily/2026-11-18",
+        "title": "The Daily · Wednesday 18 November 2026"
+      },
+      "sources": [
+        {
+          "url": "https://ai.info/daily/2026-11-18",
+          "title": "The Daily · Wednesday 18 November 2026"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "Vals评估：多款主流AI模型在模拟军事场景中将平民和学校标为打击目标",
+      "summary": "Vals发布评估报告称，在模拟军事场景的无人机和卫星图像标注任务中，OpenAI、Anthropic、谷歌等公司的商用AI模型会将平民、投降士兵和学校标为潜在打击目标。评估未要求模型直接作出打击决定。",
+      "impact": "对使用商用AI批量标注战场影像的团队而言，误标可能进入自动瞄准系统的训练数据，使平民和受保护地点被错误识别为目标。",
+      "source": {
+        "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/?type=AI",
+        "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game"
+      },
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/?type=AI",
+          "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "usage": {
+    "gpt-6.2-astra": {
+      "requests": 2,
+      "input_tokens": 65691,
+      "output_tokens": 2384,
+      "searches": 10
+    },
+    "gpt-6.2-sol": {
+      "requests": 9,
+      "input_tokens": 21299,
+      "output_tokens": 3796,
+      "searches": 0
+    }
+  },
+  "search_sources": {
+    "中文": [
+      "https://openai.com/zh-Hans-CN/index/introducing-gpt-6-2-astra-sol/",
+      "https://m.ithome.com/html/1028701.htm",
+      "https://www.cztv.com/newsDetail/917784",
+      "https://blog.zgyun.com.cn/posts/ai-daily-2026-11-18",
+      "https://www.yxsh.hk/upload/20261118/202611181794964389450.pdf",
+      "https://blog.jeacsonsnake.com/Scheduled_Automatic_AI_Industry_Analysis_Report/daily/2026_11_18.html",
+      "https://aimap.page/zh-hans/today/",
+      "https://mmlong818.github.io/ai-pulse/zh/day/2026-11-18.html",
+      "https://bigolab.com/news/digest/daily/2026-11-18",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/18/e33a8e50-d250-416d-b97e-0ca44bb2c3aa.pdf",
+      "https://hex2077.dev/docs/2026-11/2026-11-18/",
+      "https://www.sipply.dev/zh/daily/2026-11-18",
+      "https://readcopilot.ionichina.com/digest/430",
+      "https://e-acc.ai/zh/daily",
+      "https://ai.bravewaves.net/",
+      "https://aishejiquan.com/daily/2026-11-18",
+      "https://miyunel.com/ai-daily/2026-11/",
+      "https://paper.people.com.cn/rmrbhwb/pc/attachement/202611/18/96790112-4ad2-4ce9-be3d-5c7107b45434.pdf",
+      "https://paper.people.com.cn/rmrbhwb/pc/attachement/202611/18/65fd2b85-7666-42c3-a4f5-eceeabaa5ade.pdf",
+      "https://epaper.oss-cn-hangzhou.aliyuncs.com/csrb/2025-11-20/c2871fd1b1695797cbc0b1403cf8a0e5.pdf",
+      "https://kimkj.com/newsletter/paper/daily-briefing-2026-11-17.pdf",
+      "https://zh.wikipedia.org/wiki/Claude_%28%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%29",
+      "https://apnews.com/article/bb61e50e4b0bb0b975b0695dc4f7b64a",
+      "https://apnews.com/article/1e3b6161b31196c9716ca02ac8c7720c",
+      "https://help.openai.com/zh-hant-hk/articles/9624314-model-release-notes",
+      "https://openai.com/zh-Hant/research/index/release/",
+      "https://www.ithome.com/1/022/522.htm",
+      "https://www.ithome.com/1/021/352.htm",
+      "https://openai.com/zh-Hant-HK/index/introducing-gpt-6-2-astra-sol/",
+      "https://deploymentsafety.openai.com/gpt-6-2-astra-sol"
+    ],
+    "英文": [
+      "https://openai.com/index/introducing-gpt-6-2-astra-sol/?source=announcement",
+      "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/?type=AI",
+      "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+      "https://apnews.com/article/fd36b9004c00259aa2f7b871a61aeb8c",
+      "https://www.itpro.com/software/open-source/ovhcloud-launches-european-trained-open-source-ai-model",
+      "https://apnews.com/article/70b660ddf900d90bbf484ecdf1fb441c",
+      "https://apnews.com/article/40f0920738b6fea43d4049c995fb43a8",
+      "https://www.axios.com/newsletters/axios-pro-rata-f4fcb2c0-4012-49f5-8d2b-93e19791ce1a",
+      "https://www.theatlantic.com/ideas/2026/11/major-server-outage-response/689486/",
+      "https://www.theatlantic.com/international/2026/11/ai-race-china-us/689439/",
+      "https://artificialprism.com/daily/2026-11-18/",
+      "https://siliconainews.com/tracker/ai-model-releases",
+      "https://observatory.mgorsky.net/archive/354/",
+      "https://www.bis.gov/sites/default/files/documents/BIS%20Issues%20Rule%20Addressing%20Remote%20Access%20to%20American%20Super%20Intelligence%20Technology.pdf",
+      "https://news.prompt20.com/brief/2026-11-17",
+      "https://getyourbrief.com/ai/2026-11-18",
+      "https://paloaltonetworks.gcs-web.com/static-files/c70b2bd5-d86b-4a4f-8380-c7d6c626b191",
+      "https://zglg.work/en/ai/today/2026-11-18",
+      "https://ai.info/daily/2026-11-18",
+      "https://sflood.com/en/daily/ai-2026-11-18",
+      "https://sharedsapience.com/tracker/arcs/open-source-ai-parity/",
+      "https://agihunt.info/en/daily/2026-11-18?f=dr",
+      "https://www.thetokentimes.io/issue/2026-11-18",
+      "https://music.amazon.com/es-ar/podcasts/8b349127-0e84-4a67-9b63-a3eeb91c07b9/ai-news-flash",
+      "https://www.skadden.com/-/media/files/publications/2026/11/ai-diffusion-2-bis-introduces-new-export-controls/aidiffusion20bisintroducesnewexportcontrolsonadvancedgpusandoverseasdatacenters.pdf?hash=DDF9ED39B516F05D92494331B6C21D60&rev=7f8a57b7eb31488eacf660619eedbf74",
+      "https://www.commerce.senate.gov/wp-content/uploads/2026/11/AI-and-cybersecurity-letter-to-SIF.pdf",
+      "https://zeronoise.ai/posts/google-ships-gemini-4-carbon-as-openai-opens-its-internals-to-outside-safety-auditors-czf9m4xat0zevk2m/download/pdf",
+      "https://techxplore.com/news/2026-11-anthropic-price-ipo-key-ai.pdf",
+      "https://www.reddit.com/r/LocalLLaMA/comments/1xzhirk/reuters_trump_administration_weighs_forcing_us/",
+      "https://en.wikipedia.org/wiki/GPT-6"
+    ]
+  }
+}
