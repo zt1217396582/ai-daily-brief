@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-19",
+  "updated": "2026-11-20T12:06+08:00",
+  "stories": [
+    {
+      "title": "谷歌发布 Gemini 4 Neon，面向编程和知识工作并向 Pro、Ultra 用户开放",
+      "summary": "谷歌推出 Gemini 4 Neon，面向复杂编程和知识工作，支持百万词元上下文，并开始在 Gemini API 和 Gemini 应用上线。第三方基准测试中，默认推理档位的单任务成本比 Carbon 低 32%。",
+      "impact": "Gemini 应用的 Google AI Pro 和 Ultra 订阅用户可随逐步上线使用 Neon 处理复杂编程和分析任务，开发者则可通过 Gemini API 接入。",
+      "source": {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "title": "Introducing Gemini 4 Neon"
+      },
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "title": "Introducing Gemini 4 Neon"
+        },
+        {
+          "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/",
+          "title": "Google launches Gemini 4 Neon with Carbon quality at Flash speeds, live for AI Pro"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "title": "Google 在 Project Genie 推出 Genie 4，支持实时编辑互动世界和生成自适应音频",
+      "summary": "Google 开始向符合条件的 Google AI Ultra 订阅用户推出搭载 Genie 4 的 Project Genie。用户可用自然语言实时改变天气或加入角色，听到随场景变化的原生音频，并在社区图库发布作品供他人探索和二次创作。",
+      "impact": "符合条件的 Google AI Ultra 订阅用户可边探索边修改世界、分享作品或改编他人的作品；Google AI Pro 会员可加入候补名单。",
+      "source": {
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "title": "Genie 4 is now available"
+      },
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+          "title": "Genie 4 is now available"
+        },
+        {
+          "url": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+          "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "title": "GitHub Copilot 正式上线 Gemini 4 Neon，面向四类付费用户分批开放",
+      "summary": "GitHub Copilot 正式上线 Gemini 4 Neon，面向 Pro+、Max、Business 和 Enterprise 用户分批开放。该模型面向智能体编程和多步工具调用，按提供商标价计量收费。",
+      "impact": "四类套餐用户可在轮到自己时从模型选择器切换至 Gemini 4 Neon，Business 和 Enterprise 管理员则可通过 Copilot 设置中的模型策略控制访问权限。",
+      "source": {
+        "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/",
+        "title": "Gemini 4 Neon in GitHub Copilot"
+      },
+      "sources": [
+        {
+          "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/",
+          "title": "Gemini 4 Neon in GitHub Copilot"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "美国限制向为D:5国家组或澳门企业提供大量远程算力的境外数据中心供应先进芯片",
+      "summary": "美国商务部工业与安全局发布临时最终规则，自2026年11月19日起，限制向为总部位于D:5国家组或澳门的企业远程提供大量算力的境外数据中心出口、再出口或在当地转移先进芯片。商业推荐系统不适用该许可要求。",
+      "impact": "受新规约束的数据中心、境外芯片代工厂和芯片出口商须加强客户尽职调查，核查客户是否由D:5国家组或澳门的相关个人或实体直接或间接持有或控制。",
+      "source": {
+        "url": "https://thefederalregister.org/documents/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+        "title": "AGENCY:"
+      },
+      "sources": [
+        {
+          "url": "https://thefederalregister.org/documents/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+          "title": "AGENCY:"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "usage": {
+    "gpt-6.2-astra": {
+      "requests": 2,
+      "input_tokens": 62509,
+      "output_tokens": 2667,
+      "searches": 9
+    },
+    "gpt-6.2-sol": {
+      "requests": 5,
+      "input_tokens": 9679,
+      "output_tokens": 2029,
+      "searches": 0
+    }
+  },
+  "search_sources": {
+    "中文": [
+      "https://china.googleblog.com/?m=0",
+      "https://aiproducthub.cn/newsflash/simplexai-linger-open-source-local-personal-agent/",
+      "https://www.tj.gov.cn/sy/tjxw/202611/t20261120_7659490.html",
+      "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/ch/component/k2/1878379-20261119.htm?spTabChangeable=0",
+      "https://xxgk.mot.gov.cn/jigou/kjs/202611/t20261119_4228053.html",
+      "https://www.tencent.com/zh-cn/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
+      "https://aitimeline.news/Daily/2026-11-20-X%E6%97%A5%E6%8A%A5/",
+      "https://proxycc.cc/zh/news/2026-11-19/",
+      "https://blog.zgyun.com.cn/posts/ai-daily-2026-11-19",
+      "https://hm.people.com.cn/n1/2026/1119/c42272-40837016.html",
+      "https://aiday.qingxai.com/digest-2026-11-19",
+      "https://zglg.work/ai/today/2026-11-19",
+      "https://www.zaowu.world/ai-daily/20261119220000-1795097272.html",
+      "https://e-acc.ai/zh/daily",
+      "https://www.bastillepost.com/hongkong/article/17222571-%E5%89%B5%E7%A7%91%E5%B1%80%E5%B8%B8%E7%A7%98%E8%94%A1%E5%82%91%E9%8A%98%E5%87%BA%E5%B8%AD%E8%81%AF%E5%90%88%E5%9C%8B%E5%B7%A5%E4%BD%9C%E5%9D%8A-%E5%88%86%E4%BA%AB%E9%A6%99%E6%B8%AF%E6%8E%A8%E5%8B%95",
+      "https://www.foxnan.com/2026/11/7725.html",
+      "https://wqu.guru/newshub?category=ai-models",
+      "https://aihot.news/topics/open-source",
+      "https://dw-media.tkww.hk/epaper/tkp/20261119/A16_Screen.pdf",
+      "https://www.roccoc.org.tw/web/praise/download_file.jsp?pi_no=PI1793331379144",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/20/795f4440-28cc-4acc-8254-621a04649353.pdf",
+      "https://ir.kuaishou.com/zh-hans/node/11901/pdf",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/19/ccc89881-22bc-45fd-9550-c4c4faaace84.pdf",
+      "https://xxgk.mot.gov.cn/jigou/kjs/202611/P020261119536850405478.pdf",
+      "https://zh.wikipedia.org/wiki/%E8%85%BE%E8%AE%AF%E6%B7%B7%E5%85%83",
+      "https://zh.wikipedia.org/wiki/2026%E5%B9%B4OpenAI%E6%99%BA%E8%83%BD%E4%BD%93%E5%85%A5%E4%BE%B5Hugging_Face%E4%BA%8B%E4%BB%B6",
+      "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E9%A6%99%E6%B8%AF",
+      "https://zh.wikipedia.org/wiki/HKGAI_V1",
+      "https://apnews.com/article/fdca56f1cda70c9908899057e7e591e6",
+      "https://www.axios.com/2026/11/19/anthropics-ipo-signals-a-new-old-tech-era"
+    ],
+    "英文": [
+      "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?linkId=64443113",
+      "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "https://corporate.ovhcloud.com/en-ie/newsroom/news/ovh-olala-mini/",
+      "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
+      "https://audiovisual.ec.europa.eu/en/media/video/I-298222",
+      "https://apnews.com/article/922a7ccb3ee1b1336af112ace0e3b288",
+      "https://apnews.com/article/79705095e8141cd650196dbff1cf3c70",
+      "https://www.axios.com/2026/11/19/anthropic-ipo-ai-research-rsi-forecast",
+      "https://www.axios.com/newsletters/axios-portland-a59de665-7609-4a56-babc-4da3ae650572",
+      "https://www.theatlantic.com/politics/2026/11/trump-ai-tech-outages/689512/",
+      "https://www.axios.com/newsletters/axios-am-500168af-7391-4d70-b045-976b6a780cf8",
+      "https://www.theatlantic.com/technology/2026/11/silicon-valley-model-collapse/689505/",
+      "https://www.thedailybeast.com/trump-80-rambles-in-error-filled-speech-to-world-leaders",
+      "https://www.theatlantic.com/ideas/2026/11/software-beirut-ai-outages/689508/",
+      "https://www.itpro.com/software/open-source/ovhcloud-launches-european-trained-open-source-ai-model",
+      "https://moneyweek.com/investments/tech-stocks/anthropic-ipo-process",
+      "https://www.llm-releases.com/reports/release-radar",
+      "https://thefederalregister.org/documents/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+      "https://shiftainews.com/archive/ai/",
+      "https://www.llm-releases.com/",
+      "https://www.bis.gov/sites/default/files/documents/BIS%20Issues%20Rule%20Addressing%20Remote%20Access%20to%20American%20Super%20Intelligence%20Technology.pdf",
+      "https://evalmap.ai/releases/",
+      "https://news.prompt20.com/brief/2026-11-18",
+      "https://library.mikesailab.com/news/world-news/tech-policy-regulation/november-2026/tech-policy-regulation-watch-11-19-26/",
+      "https://tktarun03.github.io/jarvis-ai-news/news/2026-11-19.html",
+      "https://agihunt.info/en/daily/2026-11-19",
+      "https://www.eyssen.ai/blog/latest-ai-news-35/latest-ai-news-november-18-2026-529",
+      "https://news.nabulines.com/2026/11/19",
+      "https://cisonews.ai/regulation"
+    ]
+  }
+}
