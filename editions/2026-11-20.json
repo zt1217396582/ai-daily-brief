@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-20",
+  "updated": "2026-11-21T12:06+08:00",
+  "stories": [
+    {
+      "title": "Anthropic完成纳斯达克IPO，超额配售权获全额行使，发行总额约935亿美元",
+      "summary": "Anthropic于11月20日宣布完成首次公开募股，以每股83美元发行约11.27亿股A类普通股，其中承销商全额行使超额配售权，额外认购1.47亿股。IPO总募资约935亿美元，公司股票已于11月19日在纳斯达克开始交易，代码为ANT。",
+      "impact": "这次IPO为Anthropic带来约916亿美元的扣费前募资，原股东出售股份所得不归公司。",
+      "source": {
+        "url": "https://www.anthropic.com/news/ipo-close",
+        "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement"
+      },
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "谷歌通过Gemini API和Google AI Studio向开发者开放Genie 4",
+      "summary": "谷歌通过Gemini API（经由Interactions API）和Google AI Studio向开发者开放Genie 4。该模型可根据文本或参考图生成带同步音频的720p、24帧/秒交互世界，并支持实时调整天气和光照。",
+      "impact": "交互应用开发者现在可以用文本或参考图生成可探索的场景，并在运行时调整天气和光照，以测试交互原型。",
+      "source": {
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+        "title": "Genie 4 is now available on the Gemini API."
+      },
+      "sources": [
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+          "title": "Genie 4 is now available on the Gemini API."
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "腾讯开放混元Hy4和Hy4 Flash权重，混元LLM全系可商用",
+      "summary": "11月20日，腾讯开放旗舰模型混元Hy4和轻量版Hy4 Flash的权重，至此混元LLM全系五个版本的权重均可下载、本地部署、微调和商用。旗舰版Hy4采用混合专家架构，激活参数为490亿；Hy4 Flash的激活参数为120亿。",
+      "impact": "企业和个人开发者可下载混元LLM全系权重用于本地部署、微调和商用，算力有限的团队可选择部署成本较低的Hy4 Flash。",
+      "source": {
+        "url": "https://www.pchome.tech/article/news/tencent-hunyuan-hy4-open-source-llm-commercial",
+        "title": "腾讯混元Hy4正式开源：LLM全系列开放，全系权重可商用部署"
+      },
+      "sources": [
+        {
+          "url": "https://www.pchome.tech/article/news/tencent-hunyuan-hy4-open-source-llm-commercial",
+          "title": "腾讯混元Hy4正式开源：LLM全系列开放，全系权重可商用部署"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "彭博：苹果招聘信息披露自主AI助手计划，可浏览网页、写代码和操控应用",
+      "summary": "据彭博报道，苹果正招聘高级工程经理，负责开发可代用户浏览网页、编写和调试代码、操控应用的自主AI助手。招聘信息显示，该助手可在应用、浏览器和命令行等环境中规划并执行多步任务，开发似乎仍处于早期阶段。",
+      "impact": "如果该助手推出，苹果设备用户有望将需要在网页和多个应用之间切换的任务交给助手执行，不必亲自完成每一步。",
+      "source": {
+        "url": "https://9to5mac.com/2026/11/19/report-apple-job-listings-detail-plans-for-autonomous-ai-agents/",
+        "title": "Report: Apple job listings detail plans for autonomous AI agents"
+      },
+      "sources": [
+        {
+          "url": "https://9to5mac.com/2026/11/19/report-apple-job-listings-detail-plans-for-autonomous-ai-agents/",
+          "title": "Report: Apple job listings detail plans for autonomous AI agents"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "贝森特称特朗普与习近平同意由人类监督涉AI军事决策",
+      "summary": "美国财政部长贝森特在接受CNBC采访时表示，美国总统特朗普与中国国家主席习近平同意，涉及人工智能的军事决策应由人类监督。他举例说，是否发动重大军事行动，也属于应由人类监督的决策。",
+      "impact": "这项共识涉及中美军事决策人员：即使人工智能参与决策，是否发动重大军事行动也应由人类监督。",
+      "source": {
+        "url": "https://investinglive.com/news/bessent-says-trump-and-xi-saw-robust-discussion-on-trade-policy-ai/",
+        "title": "Bessent says Trump and Xi saw robust discussion on trade policy, AI"
+      },
+      "sources": [
+        {
+          "url": "https://investinglive.com/news/bessent-says-trump-and-xi-saw-robust-discussion-on-trade-policy-ai/",
+          "title": "Bessent says Trump and Xi saw robust discussion on trade policy, AI"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "李书福呼吁改革AI时代人才培养：模型聪明不等于人聪明",
+      "summary": "11月20日，吉利控股集团董事长李书福在2026芯位教育论坛上表示，传统大学的人才培养体系已难以适应人工智能时代的需求。他呼吁更新学习内容和培养方法，指出数据库里的知识不等于个人已掌握的知识，大语言模型变聪明也不会让人自动变聪明。",
+      "impact": "这一倡议指向传统高校和学生：高校需调整教学内容和培养方式，学生则不能把随时查到知识等同于自己掌握了知识。",
+      "source": {
+        "url": "http://finance.sina.com.cn/hy/hyjz/2026-11-20/doc-inizixmn4041804.shtml",
+        "title": "李书福：人工智能时代更需要人才培养和知识更新，AI聪明不等于人聪明"
+      },
+      "sources": [
+        {
+          "url": "http://finance.sina.com.cn/hy/hyjz/2026-11-20/doc-inizixmn4041804.shtml",
+          "title": "李书福：人工智能时代更需要人才培养和知识更新，AI聪明不等于人聪明"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "usage": {
+    "gpt-6.2-astra": {
+      "requests": 2,
+      "input_tokens": 61651,
+      "output_tokens": 2436,
+      "searches": 10
+    },
+    "gpt-6.2-sol": {
+      "requests": 8,
+      "input_tokens": 15812,
+      "output_tokens": 3686,
+      "searches": 0
+    }
+  },
+  "search_sources": {
+    "中文": [
+      "https://aitimeline.news/Daily/2026-11-20-X%E6%97%A5%E6%8A%A5/",
+      "https://github.com/Tencent-Hunyuan/Hy4",
+      "https://consumer.huawei.com/cn/osta/phones/o1-pro/",
+      "https://www.news.gov.hk/chi/2026/11/20261120/20261120_132136_249.html",
+      "https://www.cac.gov.cn/2026-11/20/c_1796918603542950.htm",
+      "https://axiig.com/news?category=ai-models",
+      "https://www.cnfin.com/zs-lb/detail/20261120/4497899_1.html",
+      "https://k.sina.cn/article_7857201856_1d45362c001908vjy6.html",
+      "https://blog.zgyun.com.cn/posts/ai-daily-2026-11-20",
+      "https://m.thepaper.cn/expressNews?startTime=1795157311904",
+      "https://news.diaoye.org/daily-news/2026-11-20.html",
+      "https://cnaihot.com/categories/ai/",
+      "https://news.supwil.com/news/ai-tech/2026-11-20",
+      "https://www.asdfoffice.com/2026/11/20/ai-%E7%AE%80%E6%8A%A5-%C2%B7-2026-11-20/",
+      "https://readcopilot.ionichina.com/digest/436",
+      "https://sci.guangyi.me/daily/2026-11-20",
+      "https://paper.people.com.cn/rmrbhwb/pc/attachement/202611/20/2eaca3cb-b7f0-485b-b427-0805365fcf6f.pdf",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/20/ad7f827f-c407-41a6-9930-500f51a44d83.pdf",
+      "https://www.tencent.com/zh-cn/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/",
+      "https://m.ithome.com/html/1029841.htm",
+      "https://wqu.guru/newshub/daily",
+      "https://developer.cloud.tencent.com/article/2789095",
+      "https://ai.zol.com.cn/list.html",
+      "https://www.pchome.tech/article/news/tencent-hunyuan-hy4-open-source-llm-commercial",
+      "https://developer.cloud.tencent.com/article/2776227",
+      "https://www.sparkenu.cn/zh/news/2026-11-20?page=3&sort=latest",
+      "https://arex-research.com/articles?locale=en",
+      "https://dw-media.tkww.hk/epaper/wwp/20261104/a04-1104.pdf",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/13/7a72920f-904c-4dd3-a044-30f014d8a60d.pdf",
+      "https://main.qcloudimg.com/raw/document/product/pdf/1729_97729_cn.pdf"
+    ],
+    "英文": [
+      "https://www.anthropic.com/news/ipo-close",
+      "https://huggingface.co/tencent/Hy4",
+      "https://investinglive.com/news/bessent-says-trump-and-xi-saw-robust-discussion-on-trade-policy-ai/",
+      "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+      "https://apnews.com/article/88142455395552afe74caec3399a648b",
+      "https://www.axios.com/2026/11/20/anthropic-stock-fall-ipo-ai",
+      "https://www.theatlantic.com/podcasts/2026/11/whats-so-important-about-nvidias-chips/689521/",
+      "https://apnews.com/article/922a7ccb3ee1b1336af112ace0e3b288",
+      "https://www.axios.com/newsletters/axios-portland-a59de665-7609-4a56-babc-4da3ae650572",
+      "https://www.techradar.com/pro/intels-commitment-to-the-hpc-community-is-grounded-in-a-pragmatic-reality-intel-affirms-its-backing-for-the-next-generation-of-high-powered-computing-to-push-the-boundaries-of-ai",
+      "https://theweek.com/politics/can-the-un-keep-killer-robots-under-control",
+      "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
+      "https://www.aitopic.org/en/signals",
+      "https://d2233.cms.socastsrm.com/2026/11/20/us-ai-chip-curbs-hit-china-tech-stocks-spur-self-sufficiency-push/",
+      "https://hk.news.yahoo.com/politics/articles/us-issues-rule-protect-advanced-134607323.html",
+      "https://benchlm.ai/model-updates/releases/november-2026",
+      "https://www.eyssen.ai/blog/latest-ai-news-35/latest-ai-news-november-19-2026-530",
+      "https://www.investing.com/news/stock-market-news/exclusivetrump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use-5035455",
+      "https://rangoon.ai/insights/archive/",
+      "https://www.supplychainbrain.com/technology/artificial-intelligence/article/16541570/us-to-curb-chinas-access-to-ai-chips-as-trump-heads-to-asia",
+      "https://luxintenebris.news/",
+      "https://www.promptzone.com/ai-model-releases",
+      "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-6-2026/",
+      "https://www.investing.com/news/stock-market-news/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says-5042288",
+      "https://www.gulf-times.com/gulftimes/uploads/pdf/2026/11/20/business-20261120-1-1795126074.pdf?ts=1795126074",
+      "https://www.gtlaw.com/-/media/files/insights/alerts/2026/11/gt-alertbis-interim-final-rule-targets-remote-access-to-advanced-semiconductors-rescinds-ai-diffusion-rule.pdf?hash=355B3B0B6044735F8577173889E37177&rev=d94f74e2edd741959e4fc14415ebe028&sc_lang=pt",
+      "https://www.milbank.com/a/web/39M7QAFa7jz1DQrBkVhKqw/1126-grns-client-alert_bis-issues-new-rule-restricting-remote-access-to-advanced-chips.pdf",
+      "https://ir.zscaler.com/node/16796/pdf",
+      "https://www.reddit.com/r/StockMarket/comments/1y1c15j/trump_says_only_older_chips_should_be_sold_to/",
+      "https://en.wikipedia.org/wiki/Jensen_Huang_scandal"
+    ]
+  }
+}
