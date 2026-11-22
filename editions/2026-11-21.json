@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-21",
+  "updated": "2026-11-22T11:19+08:00",
+  "stories": [
+    {
+      "title": "Lean 与 Mathlib 社区联合确认 Alpöge 的黎曼猜想形式化证明正确",
+      "summary": "11月21日，Lean 与 Mathlib 社区发表联合声明，确认 Levent Alpöge 对黎曼猜想的形式化表述及其证明均正确。Alpöge 于前一天发布了包含该证明的 Lean 库，代码共1700万行，仅直接依赖 Mathlib。",
+      "impact": "数学研究者可以在 Lean 中复核这份形式化证明，并以此为基础研究其中的新思路。",
+      "source": {
+        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+        "title": "Lean verification of the Riemann Hypothesis"
+      },
+      "sources": [
+        {
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "title": "Lean verification of the Riemann Hypothesis"
+        },
+        {
+          "url": "https://www.washingtonpost.com/technology/2026/11/20/using-anthropic-ai-mathematician-claims-have-solved-riemann-hypothesis/",
+          "title": "Using AI, mathematician claims to have solved one of math’s great mysteries"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "title": "Thinking Machines Lab 发布 Inkling 2 Mini：开放模型权重，32GB Mac 可本地运行",
+      "summary": "11月21日，Thinking Machines Lab发布Inkling 2 Mini，并以Apache 2.0许可开放权重。这款循环MoE模型有264亿总参数，可通过Ollama在配备32GB内存的Mac上本地运行。",
+      "impact": "配备32GB内存Mac的开发者可以用Ollama预发布版在本机试用Inkling 2 Mini完成代码编辑任务，无需调用云端模型。",
+      "source": {
+        "url": "https://nvdium.com/zh-CN/articles/841689964",
+        "title": "Inkling 2 Mini 发布：26.4B 循环 Transformer，笔记本就能跑，AA Index 20.1"
+      },
+      "sources": [
+        {
+          "url": "https://nvdium.com/zh-CN/articles/841689964",
+          "title": "Inkling 2 Mini 发布：26.4B 循环 Transformer，笔记本就能跑，AA Index 20.1"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "腾讯混元团队首次在 Reddit 公开问答，透露下一代 Hy 模型将扩大规模",
+      "summary": "11月21日凌晨，腾讯混元负责人姚顺雨和团队首次在Reddit举行公开问答，120分钟内回答近100个问题。团队称下一代Hy模型将扩大规模，并解释了混合专家架构的稀疏度取舍，以及网络安全训练如何侧重防御、漏洞分析和修复。",
+      "impact": "对评估是否接入 Hy4 系列的开发者而言，这次问答提供了判断模型部署时的显存与算力取舍、以及安全任务适用范围的依据。",
+      "source": {
+        "url": "https://finance.sina.com.cn/tech/internet/2026-11-21/doc-inizmwam5159013.shtml",
+        "title": "120分钟，姚顺雨携团队回答关于混元的“任何问题”"
+      },
+      "sources": [
+        {
+          "url": "https://finance.sina.com.cn/tech/internet/2026-11-21/doc-inizmwam5159013.shtml",
+          "title": "120分钟，姚顺雨携团队回答关于混元的“任何问题”"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "世界计算大会安全计算论坛在长沙举行，发布行业应用成果及两款AI安全新品",
+      "summary": "2026年11月21日，世界计算大会安全计算论坛在长沙举行，聚焦人工智能时代的安全防御技术与行业应用。论坛发布行业安全计算应用成果，亮相AI安全平台和保护AI平台，并在攻防场景中演示威胁检测、安全响应和风险防护。",
+      "impact": "对电力等关键信息基础设施运营企业，论坛分享的电力行业实践为将AI安全防护嵌入生产业务流程提供了参考。",
+      "source": {
+        "url": "https://hunan.voc.com.cn/mobile/news/202611/34316148.html",
+        "title": "聚焦AI攻防实战 共筑智能安全防线 2026世界计算大会安全计算论坛在长沙举办"
+      },
+      "sources": [
+        {
+          "url": "https://hunan.voc.com.cn/mobile/news/202611/34316148.html",
+          "title": "聚焦AI攻防实战 共筑智能安全防线 2026世界计算大会安全计算论坛在长沙举办"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "usage": {
+    "gpt-6.2-astra": {
+      "requests": 2,
+      "input_tokens": 61748,
+      "output_tokens": 2482,
+      "searches": 9
+    },
+    "gpt-6.2-sol": {
+      "requests": 5,
+      "input_tokens": 17230,
+      "output_tokens": 2203,
+      "searches": 0
+    }
+  },
+  "search_sources": {
+    "中文": [
+      "https://www.reddit.com/r/LocalLLaMA/comments/1y15w4a/tencent_hy_team_shunyu_yao_here_ask_us_anything/",
+      "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "https://hunan.voc.com.cn/mobile/news/202611/34316148.html",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/22/02cb2886-aaf7-4fc0-8181-26eb630cc920.pdf",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/21/958fca0a-325d-48ae-b5dd-8ed81c247341.pdf",
+      "https://hot.sycode.cn/daily/2026-11-21",
+      "https://www.bpdh.cn/ai-hot.html",
+      "https://news.diaoye.org/daily-news/2026-11-21.html",
+      "https://cdn.technews.tw/2026/",
+      "https://www.aiwyp.com/news/ai-daily-2026-11-21-morning/",
+      "https://www.wuaishare.cn/15385.html",
+      "https://news.yuhuanstudio.com/issues/2026-11-21",
+      "https://sflood.com/zh/daily/ai-2026-11-21",
+      "https://opentrends.io/zh/trends/cn/2026-11-21",
+      "https://www.11gu.cn/2026/11/21/ai%E7%AE%80%E6%8A%A5-2026-11-21/",
+      "https://readcopilot.ionichina.com/digest/438",
+      "https://polarbear0827.github.io/Daily-briefing/",
+      "https://www.securitystudies.info/reports/East%20Asia/China/China_2026-11-21.pdf",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/21/e6f58ed8-3840-4f22-868c-d830d71fa570.pdf",
+      "https://finance.eastmoney.com/a/202611213936829848.html",
+      "https://hn.people.com.cn/n2/2026/1121/c336521-41757207.html",
+      "https://android.icswb.com/h/168/20261122/1005123.html",
+      "https://epoch0.tokyo/daily/2026-11-21",
+      "https://nvdium.com/zh-CN/articles/841689964",
+      "https://finance.sina.com.cn/tech/internet/2026-11-21/doc-inizmwam5159013.shtml",
+      "https://www.wanmi.net/articles/ai-developer-daily-2026-11-21",
+      "https://aiproducthub.cn/newsflash/stream/?v=%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83",
+      "https://www.icswb.com/h/107000/20261121/1005039.html",
+      "https://ai-trend.me/zh/briefs/2026-11-21/",
+      "https://ei.csu.edu.cn/__local/F/73/CE/D03D59E4A99051F293E99232F77_49F6F6CC_C2036.pdf"
+    ],
+    "英文": [
+      "https://alpo.ge/remark.pdf",
+      "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "https://www.advanceintelligence.ai/2026-11-20",
+      "https://www.anthropic.com/news/ipo-close",
+      "https://www.investing.com/news/stock-market-news/anthropics-ipo-bank-closed-position-meant-to-stabilize-stock-removing-source-of-support-5042311",
+      "https://www.inquirer.com/business/etsy-artists-vendors-sellers-ai-policy-train-protest-20261121.html",
+      "https://apnews.com/article/4fe8b69a891f160f9e7f0c85af8c55c8",
+      "https://www.axios.com/newsletters/axios-am-aebd8048-f11d-44eb-9abb-c81c36ceb5fe",
+      "https://apnews.com/article/88142455395552afe74caec3399a648b",
+      "https://www.techradar.com/pro/security/ai-finds-internet-breaker-security-flaws-in-nginx-open-source-technology-responsible-for-running-hundreds-of-millions-of-websites-has-decades-old-issues-which-can-be-hijacked-to-steal-data",
+      "https://moneyweek.com/investments/tech-stocks/anthropic-ipo-process",
+      "https://ai.vi.ki/releases",
+      "https://www.govinfo.gov/content/pkg/FR-2026-11-19/pdf/2026-23529.pdf",
+      "https://artificialwatch.com/releases/2026-11",
+      "https://llm-events.top/",
+      "https://www.llm-releases.com/",
+      "https://next-f9.com/daily-9/2026-11-21",
+      "https://sentientfoundation.co/news/os-ai-field-notes-november-20-2026",
+      "https://thefederalregister.org/documents/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+      "https://www.streetinsider.com/Reuters/US%2BAI%2Bchip%2Bcurbs%2Bhit%2BChina%2Btech%2Bstocks%2C%2Bspur%2Bself-sufficiency%2Bpush/27378125.html",
+      "https://www.checknet.uk/ai-models",
+      "https://www.aljazeera.com/amp/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown",
+      "https://www.techradar.com/tech/openai-just-launched-gpt-6-2-and-its-powerful-enough-to-recreate-the-whole-of-paris-as-a-virtual-world-you-can-explore-in-your-browser",
+      "https://www.kiplinger.com/investing/ipos/anthropic-ipo-should-you-buy-ant-stock",
+      "https://www.axios.com/newsletters/axios-pro-rata-e6b10245-3998-4091-8b35-96b2de9aebe1",
+      "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "https://thinkingmachines.ai/news/",
+      "https://www.washingtonpost.com/technology/2026/11/20/using-anthropic-ai-mathematician-claims-have-solved-riemann-hypothesis/",
+      "https://bytefwd.com/thinking-machines-inkling-2-mini-local-tinker/",
+      "https://luongnv.com/news/reports/2026-11-21-afternoon.html"
+    ]
+  }
+}
