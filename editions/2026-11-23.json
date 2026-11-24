@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-23",
+  "updated": "2026-11-24T15:01+08:00",
+  "stories": [
+    {
+      "title": "美国两州分别起诉 Grok 和 X 的运营方，指其未能阻止生成未经同意的性化图像",
+      "summary": "11月23日，美国俄勒冈州和弗吉尼亚州总检察长分别提起诉讼，指控Grok和X的运营方一边宣称产品设有安全防护，一边未能阻止Grok生成未经当事人同意的性化图像，包括儿童性虐待材料。",
+      "impact": "两州总检察长称，包括两州居民在内的数百万人接触到了有害内容，也面临自己的照片被擅自改成露骨性图像的风险。",
+      "source": {
+        "url": "https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-takes-legal-action-against-grok-for-failing-to-block-child-exploitation/",
+        "title": "Media"
+      },
+      "sources": [
+        {
+          "url": "https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-takes-legal-action-against-grok-for-failing-to-block-child-exploitation/",
+          "title": "Media"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "智谱GLM-5.4上线Coding Plan，向所有编程订阅用户开放",
+      "summary": "11月23日中午，智谱GLM-5.4上线Coding Plan，向所有GLM编程计划用户开放，但官方尚未正式发布。新模型新增视觉功能，有每周配额的用户使用GLM-5.4时，配额比GLM-5.3多50%。",
+      "impact": "所有GLM编程计划用户都可使用GLM-5.4的视觉功能，其中有每周配额的用户使用新模型时，配额比使用GLM-5.3多50%。",
+      "source": {
+        "url": "https://m.thepaper.cn/newsDetail_forward_34539134",
+        "title": "中国大模型周调用量连续30周第一！智谱GLM-5.4上线，3万亿参数GLM-5.5预计12月发布"
+      },
+      "sources": [
+        {
+          "url": "https://m.thepaper.cn/newsDetail_forward_34539134",
+          "title": "中国大模型周调用量连续30周第一！智谱GLM-5.4上线，3万亿参数GLM-5.5预计12月发布"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "usage": {
+    "gpt-6.2-astra": {
+      "requests": 2,
+      "input_tokens": 64180,
+      "output_tokens": 2675,
+      "searches": 10
+    },
+    "gpt-6.2-sol": {
+      "requests": 3,
+      "input_tokens": 5602,
+      "output_tokens": 1080,
+      "searches": 0
+    }
+  },
+  "search_sources": {
+    "中文": [
+      "https://m.thepaper.cn/newsDetail_forward_34539134",
+      "https://www.ithome.com/1/030/784.htm",
+      "https://www.hkna.hk/news/%E9%A6%99%E6%B8%AF%E5%9C%8B%E9%9A%9B%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E9%A0%98%E8%A2%96%E5%B3%B0%E6%9C%83%E8%88%89%E8%A1%8C-%E6%88%90%E7%AB%8B%E5%89%8D%E6%B2%BF%E7%A7%91%E6%8A%80%E7%99%BC%E5%B1%95%E8%81%AF%E7%9B%9F",
+      "https://www.news.gov.hk/chi/2026/11/20261120/20261120_132136_249.html?name=admin&type=category",
+      "https://m.thepaper.cn/expressNews/2026-11-23",
+      "https://www.foxnan.com/2026/11/7844.html",
+      "https://readcopilot.ionichina.com/digest/443",
+      "https://www.microrealm.cn/zh/journal?date=2026-11-19&mode=daily",
+      "https://aitest123.com/news/moxingfabu/page/2",
+      "https://wqu.guru/newshub/daily",
+      "https://archiveofai.com/zh/events/",
+      "https://aiproducthub.cn/newsflash/2026-11-24/",
+      "https://s21.q4cdn.com/812015656/files/doc_news/Cisco-and-OpenAI-Launch-Shirudo-A-New-Project-to-Safeguard-Agentic-AI-2026.pdf",
+      "https://miyunel.com/ai-daily/2026-11/",
+      "https://aihot.space/days/20261123/",
+      "https://www.xn--5bru91cxma311a.com/news",
+      "https://sflood.com/zh/daily/ai-2026-11-23",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112400002_c.pdf",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/23/9f24c632-9ed0-4639-9c67-8edc4a9830d4.pdf",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/23/49bef073-ab35-4971-8aca-f530804fc17f.pdf",
+      "https://zeronoise.ai/posts/openais-gpt-62-gets-a-cool-reception-as-gemini-4-neon-wins-praise-anthropic-goes-public-and-openai-proposes-perplexity-limits-0qwhhfdk39fi2qw8/download/pdf",
+      "https://zh.wikipedia.org/wiki/%E9%80%9A%E4%B9%89%E5%8D%83%E9%97%AE",
+      "https://zh.wikipedia.org/wiki/%E5%8D%83%E9%97%AE%E5%A4%A7%E6%A8%A1%E5%9E%8B",
+      "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E9%A6%99%E6%B8%AF",
+      "https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD",
+      "https://zh.wikipedia.org/wiki/ChatGPT",
+      "https://zh.wikipedia.org/wiki/Anthropic",
+      "https://sz.people.com.cn/n2/2026/1123/c202846-41758790.html",
+      "https://m.thepaper.cn/expressNews?contId=34400684",
+      "https://finance.eastmoney.com/a/202611233937510489.html"
+    ],
+    "英文": [
+      "https://openai.com/index/perplexity-and-intelligence/",
+      "https://z.ai/blog/glm-5.4",
+      "https://www.doj.state.or.us/media-home/news-media-releases/ag-rayfield-takes-legal-action-against-grok-for-failing-to-block-child-exploitation/",
+      "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+      "https://www.nitter.gq/SarvamAI/status/2124532170505273661",
+      "https://apnews.com/article/452cc64e7169a55868f797982d0e8238",
+      "https://apnews.com/article/e5ab261b27bf80d1562a345923bf6a59",
+      "https://apnews.com/article/48a005a1415549e69ec69400024aa797",
+      "https://apnews.com/article/39d4b34ffaa867b4e669893b5fd5028f",
+      "https://www.theatlantic.com/ideas/2026/11/ai-bubble-returns-timeline/689504/",
+      "https://www.thedailybeast.com/elon-musks-spacex-slapped-with-lawsuits-over-explosion-of-sick-images",
+      "https://www.theatlantic.com/politics/2026/11/license-plate-readers-ice/689515/",
+      "https://www.thedailybeast.com/trump-faces-corruption-claim-over-sex-mad-ceos-25m-ballroom-gift",
+      "https://www.theatlantic.com/technology/2026/11/ai-hostage-economy-nvidia-huang/689552/",
+      "https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips",
+      "https://www.axios.com/newsletters/axios-am-4fdcdf3f-5786-4a64-b134-567fad56a564",
+      "https://aibriefs.news/briefing/2026-11-23",
+      "https://www.eyssen.ai/blog/latest-ai-news-35/latest-ai-news-november-22-2026-533",
+      "https://af.net/realtime/?kw=cop31-itu-antalya-pledge&news_page=13",
+      "https://phygineer.com/ai/ai-news/ai-news-november-23-2026/",
+      "https://af.net/realtime/?kw=eu-parliament-deepfake-vote&news_page=15",
+      "https://www.thedailybeast.com/trump-doj-goon-shrugs-off-sex-mad-ceo-security-fears",
+      "https://www.theatlantic.com/technology/2026/11/silicon-valley-shameless-nvidia/689549/",
+      "https://www.thedailybeast.com/maga-shark-tank-star-humiliated-minutes-after-ceo-prediction",
+      "https://www.techradar.com/pro/openai-claims-ai-agents-now-complete-nearly-half-of-two-to-four-hour-research-tasks-on-their-own-but-says-humans-are-still-central-to-ai-development",
+      "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+      "https://www.advanceintelligence.ai/2026-11-22",
+      "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors-november-11-2026",
+      "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/d56080ad-0d8b-401a-b284-e3308341659a.pdf",
+      "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition?ftag=YHF4eb9d17"
+    ]
+  }
+}
