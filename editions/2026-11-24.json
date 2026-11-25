@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-24",
+  "updated": "2026-11-25T13:33+08:00",
+  "stories": [
+    {
+      "title": "思科与 OpenAI 推出开源安全平台 Shirudo，为补丁部署争取时间",
+      "summary": "思科与 OpenAI 推出开源安全平台 Shirudo，可在不重启的情况下向运行中的内核或工作负载部署临时防护。平台以签名软件包分发 eBPF 或应用字节码，可阻断漏洞利用路径、替换有漏洞的代码或增强攻击检测。",
+      "impact": "需要分批部署补丁的基础设施运维团队可在正式修复覆盖全部系统前降低部分漏洞的暴露风险，同时维持服务运行。",
+      "source": {
+        "url": "https://isovalent.com/blog/post/cisco-openai-shirudo/",
+        "title": "Cisco and OpenAI introduce Shirudo"
+      },
+      "sources": [
+        {
+          "url": "https://isovalent.com/blog/post/cisco-openai-shirudo/",
+          "title": "Cisco and OpenAI introduce Shirudo"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "市场监管总局：中国牵头制定的AI数据质量国际标准获欧盟相关机构采纳",
+      "summary": "11月24日，市场监管总局在新闻发布会上通报，中国牵头制定的国际标准《人工智能 分析和机器学习的数据质量 第4部分：数据质量过程框架》已获欧盟相关机构采纳，成为欧盟人工智能合规评估的重要技术参考。",
+      "impact": "面向欧盟市场的人工智能企业可在准备合规评估时，参考该标准梳理分析和机器学习所用数据的质量管理流程。",
+      "source": {
+        "url": "http://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvuzc2157477.shtml?cref=cj",
+        "title": "市场监管总局：我国牵头制定的人工智能数据质量国际标准被欧盟采纳"
+      },
+      "sources": [
+        {
+          "url": "http://finance.sina.com.cn/jjxw/2026-11-24/doc-inizvuzc2157477.shtml?cref=cj",
+          "title": "市场监管总局：我国牵头制定的人工智能数据质量国际标准被欧盟采纳"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "山东在济南上线“天帧”AIGC内容共创平台",
+      "summary": "11月24日，“天帧·山东AIGC内容共创平台”在济南上线。平台以齐鲁文化大模型为核心，整合文本、图像、音频和视频生成模型、算力及专业创作工具，支持剧本生成、视频流程编排，并为需求方提供项目发布和创作者匹配渠道。",
+      "impact": "山东市县媒体、基层文化单位和中小微文化企业可通过省级平台调用模型、使用算力和创作工具，减少各自开发和重复采购。",
+      "source": {
+        "url": "https://cj.sina.com.cn/articles/view/5328858693/13d9fee4502002m9eh",
+        "title": "以AI赋能文化“两创”，山东AIGC内容共创平台正式上线"
+      },
+      "sources": [
+        {
+          "url": "https://cj.sina.com.cn/articles/view/5328858693/13d9fee4502002m9eh",
+          "title": "以AI赋能文化“两创”，山东AIGC内容共创平台正式上线"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "usage": {
+    "gpt-6.2-astra": {
+      "requests": 2,
+      "input_tokens": 63482,
+      "output_tokens": 2305,
+      "searches": 10
+    },
+    "gpt-6.2-sol": {
+      "requests": 6,
+      "input_tokens": 18854,
+      "output_tokens": 2830,
+      "searches": 0
+    }
+  },
+  "search_sources": {
+    "中文": [
+      "https://www.ithome.com/1/031/681.htm",
+      "https://sensetime.com/cn/news/sensenova-u1-6-open-source-20261124-1152",
+      "https://www.itbear.com.cn/html/2026-11/1594010.html",
+      "https://www.chinawriter.com.cn/n1/2026/1125/c403994-40840053.html",
+      "https://www.samr.gov.cn/xw/xwfbt/art/2026/art_7aa3b165c4114ac1ac910a34f8fca79e.html",
+      "https://finance.ifeng.com/c/8yJSGm7sDyJ",
+      "https://aihot.space/days/20261124/",
+      "https://api3.cls.cn/share/subject/1321?app=stib&os=ios&selected=&source=&sv=229",
+      "https://aisafetyhot.com/zh/daily/2026-11-24",
+      "https://www.sipply.dev/zh/daily/2026-11-24",
+      "https://aishejiquan.com/daily/2026-11-24",
+      "https://www.readaitime.com/digests/2026-11-24",
+      "https://www.xinghehuimeng.com.cn/daily/2026-11-24",
+      "https://luojinping.com/?event=event-0165d5273e6bd6",
+      "https://cj.sina.com.cn/articles/view/7857201856/1d45362c001908w0o9",
+      "https://sflood.com/zh/daily/ai-2026-11-25",
+      "https://news.supwil.com/news/ai-tech/2026-11-24",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/24/0aa86631-bf63-498b-acd8-ae589204204a.pdf",
+      "https://zh.wikipedia.org/wiki/2026%E5%B9%B411%E6%9C%88",
+      "https://cswbbsg.icswb.com/default.php?a=download_newspaper_page_pdf&mod=newspaper_page&newspaper_page_id=279372",
+      "https://zh.wikipedia.org/wiki/%E8%85%BE%E8%AE%AF%E6%B7%B7%E5%85%83",
+      "https://news.sciencenet.cn/dz/upload/2026/6/20266155389818.pdf",
+      "https://aqdzb.aqnews.com.cn/epaper/xml/aqrb/20251202/RB2025120204.pdf",
+      "https://zh.wikipedia.org/wiki/HKGAI_V1",
+      "https://zh.wikipedia.org/wiki/%E6%99%BA%E8%B0%B1",
+      "https://static.time-weekly.com/time-weekly/5355ff6d95e8a8501428f6df80e8a98e/20260112/3fb52ea4e77849639942227b9a8dd3c5.pdf",
+      "https://zh.wikipedia.org/wiki/%E6%96%87%E5%BF%83%E5%A4%A7%E6%A8%A1%E5%9E%8B",
+      "https://m.php.cn/faq/3469589.html",
+      "https://d1ev.com/newsflash/317314",
+      "https://www.samr.gov.cn/xw/"
+    ],
+    "英文": [
+      "https://public-inspection.federalregister.gov/2026-23999.pdf",
+      "https://www.prnewswire.com/news-releases/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai-302948660.html",
+      "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "https://huggingface.co/tencent/Hy-MT3-7B",
+      "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+      "https://apnews.com/article/bfa6d3b02e3b0e2779dfb613c900bd77",
+      "https://www.theatlantic.com/national-security/2026/11/lutnick-export-control-personal-detail/689562/",
+      "https://time.com/article/2026/11/24/ai-s-frankenstein-moment/",
+      "https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips",
+      "https://www.androidcentral.com/apps-software/ai/google-gemini-ai-pro-for-just-usd100-a-year-is-an-actually-intelligent-early-black-friday-deal",
+      "https://www.terramosaic.org/news/ai-watch/?date=2026-10-27",
+      "https://durabilitycurve.com/chart/releases/2026-11/",
+      "https://www.promptzone.com/ai-model-releases.md",
+      "https://evalmap.ai/releases/",
+      "https://openmodelweights.com/weekly/",
+      "https://llmgateway.io/timeline?trk=article-ssr-frontend-pulse_little-text-block",
+      "https://s21.q4cdn.com/812015656/files/doc_news/Cisco-and-OpenAI-Launch-Shirudo-A-New-Project-to-Safeguard-Agentic-AI-2026.pdf",
+      "https://siliconainews.com/tracker/ai-model-releases?kind=specialised",
+      "https://www.donvitocodes.com/ai-news",
+      "https://www.scriptbyai.com/ai-model-release-calendar/",
+      "https://www.explainx.ai/blog/topics/open-models",
+      "https://shiftainews.com/archive/ai/",
+      "https://theaiengineering.com/releases/2026/11",
+      "https://www.einpresswire.com/article-pdf/958518870/newvue-advances-clinical-intelligence-and-analytics-adds-native-scheduling-ahead-of-rsna-2026",
+      "https://apnews.com/article/6cc4e580290aadf304ee316d6d46dd81",
+      "https://apnews.com/article/feec0e25b9994b1c86b16329cf770192",
+      "https://apnews.com/article/922a7ccb3ee1b1336af112ace0e3b288",
+      "https://apnews.com/article/e5ab261b27bf80d1562a345923bf6a59",
+      "https://www.thedailybeast.com/trump-faces-corruption-claim-over-sex-mad-ceos-25m-ballroom-gift",
+      "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"
+    ]
+  }
+}
