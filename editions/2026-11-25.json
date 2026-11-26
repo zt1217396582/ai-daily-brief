@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-25",
+  "updated": "2026-11-26T13:14+08:00",
+  "stories": [
+    {
+      "title": "商汤发布 SenseNova-RoboRSI-27B 正式版，完成真机抓放和堆叠测试",
+      "summary": "商汤发布具身智能模型 SenseNova-RoboRSI-27B 正式版，可自主选择调用视觉语言动作模型或用代码直接控制机械臂。未使用真实机器人数据训练或微调，模型在真机测试中堆叠积木成功9/10次，多类物体抓放成功6/10次。",
+      "impact": "对机械臂研发团队而言，这两项测试为复用同一份仿真权重、仅适配接口后在不同机械臂上验证操作任务提供了参考。",
+      "source": {
+        "url": "https://www.xueqiu.com/2005421592/418646799",
+        "title": "SenseNova-RoboRSI-27B 正式版：评测得分超越 GPT-6-Astra，以递归自我改进突破 27B 能力边界"
+      },
+      "sources": [
+        {
+          "url": "https://www.xueqiu.com/2005421592/418646799",
+          "title": "SenseNova-RoboRSI-27B 正式版：评测得分超越 GPT-6-Astra，以递归自我改进突破 27B 能力边界"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "usage": {
+    "gpt-6.2-astra": {
+      "requests": 2,
+      "input_tokens": 61658,
+      "output_tokens": 2827,
+      "searches": 10
+    },
+    "gpt-6.2-sol": {
+      "requests": 2,
+      "input_tokens": 5993,
+      "output_tokens": 773,
+      "searches": 0
+    }
+  },
+  "search_sources": {
+    "中文": [
+      "https://arex-research.com/articles?locale=en",
+      "https://ai.alldu.cn/flashes",
+      "https://www.xinhuanet.com/tech/20261111/183aa161e70b4942b622e10b5e3da605/c.html",
+      "https://www.xueqiu.com/2005421592/418646799",
+      "https://www.cso.gov.hk/sc/press/press.htm",
+      "https://www.open2ai.cn/news/index.html",
+      "https://segmentfault.com/a/1190000048424292",
+      "https://sflood.com/zh/daily/ai-2026-11-25",
+      "https://appliedmodels.cn/days/2026-11-25/",
+      "https://b.coolplus.me/archives/ai--2026-11-25",
+      "https://miyunel.com/ai-daily/2026-11/",
+      "https://technews.tw/tag/%E7%94%9F%E6%88%90%E5%BC%8F-ai/",
+      "https://readcopilot.ionichina.com/digest/451",
+      "https://readcopilot.ionichina.com/digest/449",
+      "https://af.net/zh/realtime/?kw=openrouter-drops-3-providers&news_page=2",
+      "https://dw-media.tkww.hk/epaper/wwp/20261125/a20-1125.pdf",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/25/c03c3f20-bdda-4bf3-9ee9-bd22684c9bdc.pdf",
+      "https://dw-media.tkww.hk/epaper/wwp/20261125/b03-1125.pdf",
+      "https://dw-media.tkww.hk/epaper/tkp/20261125/A13_Screen.pdf",
+      "https://www.icswb.com/default.php?a=download_newspaper_page_pdf&mod=newspaper_page&newspaper_page_id=279384",
+      "https://www.sensetime.com/cn/news",
+      "https://www.ainativehot.com/story/fde3caf9-c364-4ca3-a953-34787477d8ad",
+      "https://opczhongguo.com/daily/2026-11-25/",
+      "https://decohack.com/ai-daily/2026-11-25/",
+      "https://www.semiwebs.com/11410.html",
+      "https://appliedmodels.cn/days/2026-11-25/?tab=models",
+      "https://news.sig.ai/cn/article/cmwdliklt000a3vufyzs7ufjp",
+      "https://cladecode.com/news/oh-2980/",
+      "https://modelbrief.app/zh/sensenova-u1-6/",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/13/7a72920f-904c-4dd3-a044-30f014d8a60d.pdf"
+    ],
+    "英文": [
+      "https://www.advanceintelligence.ai/2026-11-24/all",
+      "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+      "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+      "https://epochal.com/blog/introducing-time-portal",
+      "https://apnews.com/article/b9897fe06f851ffaf92fd304ae69075c",
+      "https://time.com/article/2026/11/25/nvidia-megaspeed-china-investment/",
+      "https://www.axios.com/newsletters/axios-pro-rata-a3e26c0f-6d85-4b97-8f1c-aa734828f95b",
+      "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+      "https://apnews.com/article/452cc64e7169a55868f797982d0e8238",
+      "https://time.com/article/2026/11/24/ai-s-frankenstein-moment/",
+      "https://www.techradar.com/pro/security/its-time-to-start-running-anduril-ceo-palmer-luckey-says-ai-powered-cyberattacks-are-moving-faster-than-outdated-defenses",
+      "https://www.androidcentral.com/apps-software/ai/google-gemini-ai-pro-for-just-usd100-a-year-is-an-actually-intelligent-early-black-friday-deal",
+      "https://cdn.openai.com/pdf/gpt-6-a-universal-foundation-model-for-protein-biology.pdf",
+      "https://thethreshold.report/archive/2026-11-24",
+      "https://www.terramosaic.org/news/ai-watch/?date=2026-10-27",
+      "https://iacompa.com/news/archive/2026",
+      "https://news.nabulines.com/2026/11/24",
+      "https://artificialprism.com/daily/2026-11-25/",
+      "https://www.deai.org/news/daily-brief-2026-11-25",
+      "https://zeronoise.ai/posts/frontier-labs-debate-release-limits-as-gpt-designed-proteins-reach-the-lab-htakyz5p6psj1eti/download/pdf",
+      "https://www.theinfomachine.fyi/daily/2026-11-24",
+      "https://brianrobak.com/ai/2026-11-24.html",
+      "https://www.axios.com/2026/11/25/anthropic-ai-human-control-debate-free-will",
+      "https://time.com/article/2026/11/20/anthropic-ipo-climate-energy/",
+      "https://www.techradar.com/ai-platforms-assistants/claude/claude-helps-anthropic-mathematician-solve-a-167-year-old-math-problem-riemann-hypothesis-potentially-proven-after-the-ai-flew-danced-and-sparkled-in-breakthrough",
+      "https://www.axios.com/newsletters/axios-am-aebd8048-f11d-44eb-9abb-c81c36ceb5fe",
+      "https://www.kiplinger.com/investing/live/anthropic-ipo-updates-and-commentary",
+      "https://www.axios.com/newsletters/axios-am-500168af-7391-4d70-b045-976b6a780cf8",
+      "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "https://www.advanceintelligence.ai/2026-11-24"
+    ]
+  }
+}
