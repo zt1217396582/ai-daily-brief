@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-26",
+  "updated": "2026-11-27T13:13+08:00",
+  "stories": [
+    {
+      "title": "工信部等三部门印发新一代通信网方案，推动网络架构适配AI应用",
+      "summary": "11月26日，工信部、国家网信办、国家发展改革委联合印发《新一代通信网建设实施方案》，提出到2030年建成覆盖完善、性能领先的新一代通信网，推动网络架构向以支持人工智能应用为中心演进，并探索在边缘设备部署推理算力。",
+      "impact": "对电信运营商和算力服务商而言，方案明确了提升算力接入与互联性能的建设方向，并提出探索在边缘设备部署推理算力。",
+      "source": {
+        "url": "https://sflood.com/zh/daily/ai-2026-11-26",
+        "title": "[AI前沿日报] 2026-11-26"
+      },
+      "sources": [
+        {
+          "url": "https://sflood.com/zh/daily/ai-2026-11-26",
+          "title": "[AI前沿日报] 2026-11-26"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "商汤开源 SenseNova-RoboRSI-27B 正式版，可在调用动作模型与代码控制机械臂之间切换",
+      "summary": "商汤开源机器人操作模型 SenseNova-RoboRSI-27B 正式版，可自主选择调用动作模型或用代码控制机械臂，并依据反馈调整动作。在 RoboDojo 仿真评测中，平均分由预览版的 10.0 升至 34.7。",
+      "impact": "机器人应用开发者可用同一开源模型在调用现有视觉语言动作模型与代码直控机械臂之间切换，并根据执行反馈调整动作策略。",
+      "source": {
+        "url": "https://shankun.top/2026/11/26/ai-daily-2026-11-26/",
+        "title": "AI日报 | 2026年11月26日"
+      },
+      "sources": [
+        {
+          "url": "https://shankun.top/2026/11/26/ai-daily-2026-11-26/",
+          "title": "AI日报 | 2026年11月26日"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "OpenAI 向少量客户测试 Private Inference，保护推理中的提示词和回复",
+      "summary": "OpenAI 正面向一小批客户测试 Private Inference（私密推理）功能，旨在模型处理请求期间保护客户提交的提示词和模型生成的回复。报道未说明该功能何时会向更多客户开放。",
+      "impact": "对参与测试的少量客户而言，这项功能旨在保护他们的提示词和模型回复，保护范围涵盖模型处理请求的过程。",
+      "source": {
+        "url": "https://ournews.ai/live/openai-tests-private-inference-with-select-customers?lang=en",
+        "title": "“We’re now testing Private Inference,” Sam Altman said."
+      },
+      "sources": [
+        {
+          "url": "https://ournews.ai/live/openai-tests-private-inference-with-select-customers?lang=en",
+          "title": "“We’re now testing Private Inference,” Sam Altman said."
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "《金融时报》：英伟达要求合作厂商暂停向东南亚四国交付AI服务器",
+      "summary": "据《金融时报》援引知情人士报道，随着美国收紧对华出口限制，英伟达要求主要合作厂商暂停向马来西亚、新加坡、泰国和印度尼西亚交付AI服务器。戴尔和超微电脑已通知当地买家，待交付订单暂不能出厂，暂停将持续多久尚不清楚。",
+      "impact": "四国云服务商的待交付服务器订单暂不能出厂，依赖这批设备扩充算力的数据中心可能因此推迟扩容。",
+      "source": {
+        "url": "https://www.malaymail.com/news/money/2026/11/26/ft-nvidia-stops-ai-shipments-to-malaysia-singapore-thailand-indonesia-as-us-tightens-china-curbs/244856",
+        "title": "FT: Nvidia stops AI shipments to Malaysia, Singapore, Thailand, Indonesia as US tightens China curbs"
+      },
+      "sources": [
+        {
+          "url": "https://www.malaymail.com/news/money/2026/11/26/ft-nvidia-stops-ai-shipments-to-malaysia-singapore-thailand-indonesia-as-us-tightens-china-curbs/244856",
+          "title": "FT: Nvidia stops AI shipments to Malaysia, Singapore, Thailand, Indonesia as US tightens China curbs"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "路透社：智谱旗舰模型进度落后，月之暗面若失去海外算力，发布间隔或延至一年以上",
+      "summary": "路透社11月26日援引知情人士称，智谱原定当月发布的旗舰模型GLM-5.5进度落后，可能推迟至2027年一季度或更晚。若完全失去海外算力，月之暗面两次重大模型发布之间的间隔可能从半年延长至一年或更久。",
+      "impact": "计划接入月之暗面下一代旗舰模型Kimi K4的开发者，可能要等到2027年年中左右才能开始测试。",
+      "source": {
+        "url": "https://ca.finance.yahoo.com/news/exclusive-us-chip-curbs-distillation-071923402.html/",
+        "title": "Exclusive-US chip curbs, distillation crackdown threaten Chinese AI model development, sources say"
+      },
+      "sources": [
+        {
+          "url": "https://ca.finance.yahoo.com/news/exclusive-us-chip-curbs-distillation-071923402.html/",
+          "title": "Exclusive-US chip curbs, distillation crackdown threaten Chinese AI model development, sources say"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "usage": {
+    "gpt-6.2-astra": {
+      "requests": 2,
+      "input_tokens": 62455,
+      "output_tokens": 2711,
+      "searches": 10
+    },
+    "gpt-6.2-sol": {
+      "requests": 7,
+      "input_tokens": 13522,
+      "output_tokens": 3013,
+      "searches": 0
+    }
+  },
+  "search_sources": {
+    "中文": [
+      "https://forum.trae.cn/t/topic/605792",
+      "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600536_c.pdf",
+      "https://api3.cls.cn/share/subject/1321?app=stib&os=android&selected=&source=&sv=229",
+      "https://www.ithome.com/1/032/752.htm",
+      "https://www.zahml.top/ai-daily-2026-11-26/",
+      "https://www.open2ai.cn/news/index.html",
+      "https://miyunel.com/ai-daily/2026-11/",
+      "https://dw-media.tkww.hk/epaper/wwp/20261126/b01-1126.pdf",
+      "https://ytdu.com/ai/a1t2y202611/",
+      "https://aiday.qingxai.com/digest-2026-11-26",
+      "https://zglg.work/ai/today/2026-11-26",
+      "https://damodev.csdn.net/6b077686e5f4ca4eff93cc3d.html",
+      "https://ligan.cc/article/news-2026-11-26",
+      "https://www.xinghehuimeng.com.cn/daily/2026-11-26",
+      "https://www.yhnotes.com/blog/2026-11-26-tech-digest/",
+      "https://sflood.com/zh/daily/ai-2026-11-26",
+      "https://liangss.me/news?category=all&date=2026-11-26",
+      "https://paper.people.com.cn/rmrb/pc/attachement/202611/26/044d5368-097e-4e6d-ae13-8560fd4f7f92.pdf",
+      "https://www.ainewslog.com/zh/",
+      "https://www.skillhub.news/daily/%E6%AF%8F%E6%97%A5AI%E6%8A%A5%E5%91%8A-2026-11-26.html",
+      "https://airobotop.cloud/daily",
+      "https://aiproducthub.cn/newsflash/stream/?v=%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83",
+      "https://shankun.top/2026/11/26/ai-daily-2026-11-26/",
+      "https://dw-media.tkww.hk/epaper/wwp/20261126/a09-1126.pdf",
+      "https://balahub.com/",
+      "https://fisobot.com/news",
+      "https://finance.eastmoney.com/a/202611263940823264.html",
+      "https://www.ithome.com/1/032/781.htm",
+      "https://m.ithome.com/html/1032535.htm",
+      "https://www.11gu.cn/2026/11/26/ai%E7%AE%80%E6%8A%A5-2026-11-26/"
+    ],
+    "英文": [
+      "https://ournews.ai/live/openai-tests-private-inference-with-select-customers?lang=en",
+      "https://gpujournal.ai/story/ming-image-0-2-design-nov-26",
+      "https://guthlabs.ai/news/story/einsia-robouniverse-35b-a3b-weights-release-2026-11-26",
+      "https://eu-assets.contentstack.com/v3/assets/blt23eb5bbc4124baa6/blt3284fad4ee39d97e/6b071287af911015536d731d/FCC_Authorizes_1_Million_Satellites_for_Data_Centers_in_Space_PR_11-25-2026.pdf",
+      "https://www.malaymail.com/news/money/2026/11/26/ft-nvidia-stops-ai-shipments-to-malaysia-singapore-thailand-indonesia-as-us-tightens-china-curbs/244856",
+      "https://ca.finance.yahoo.com/news/exclusive-us-chip-curbs-distillation-071923402.html/",
+      "https://apnews.com/article/c7ef10c1dbc5fa09668bd4fe0729c613",
+      "https://www.axios.com/newsletters/axios-am-38b727fc-c775-43be-b537-f23779c0f7e5",
+      "https://www.thedailybeast.com/cnn-panel-laughs-in-maga-guest-michael-hahns-face-over-bizarre-trump-excuse-over-jensen-huang",
+      "https://apnews.com/article/762a613b11bd316384430112cc223ed1",
+      "https://www.techradar.com/pro/ai-server-giants-including-hpe-dell-and-more-are-reportedly-hiking-prices-by-45-percent-months-after-contracts-have-been-signed-as-memory-shortage-bites",
+      "https://time.com/article/2026/11/24/ai-s-frankenstein-moment/",
+      "https://www.theatlantic.com/ideas/2026/11/nvidia-china-dictators/689577/",
+      "https://aibriefing.io/trackers/models/",
+      "https://siloadout.com/releases/open-weights/",
+      "https://www.emerjable.com/ai-news-updates/",
+      "https://siliconainews.com/tracker/ai-model-releases",
+      "https://dataconomy.com/2026/11/26/thomson-reuters-to-launch-ai-model-built-on-chinese-and-us/",
+      "https://digestai.news/models",
+      "https://hk.news.yahoo.com/politics/articles/us-issues-rule-protect-advanced-134607323.html",
+      "https://www.eyssen.ai/blog/latest-ai-news-35/latest-ai-news-november-25-2026-536",
+      "https://timesof.ai/category/policy",
+      "https://humanityunfolds.com/archive/",
+      "https://bizn.org/news-2026-11-26",
+      "https://commonsbusiness.parliament.uk/Document/109304/Pdf?subType=Standard",
+      "https://www.govinfo.gov/content/pkg/FR-2026-11-24/pdf/2026-23862.pdf",
+      "https://publications.europa.eu/resource/cellar/27d92c9a-e8d8-11f1-b745-01aa75ed71a1.0001.02/DOC_1",
+      "https://www.gulf-times.com/gulftimes/uploads/pdf/2026/11/25/main-20261125-1-1795557504.pdf?ts=1795557504",
+      "https://kimkj.com/newsletter/paper/daily-briefing-2026-11-26.pdf",
+      "https://www.reddit.com/r/artificial/comments/1y5qwwt/nvidia_quietly_releases_open_weights_for/"
+    ]
+  }
+}
