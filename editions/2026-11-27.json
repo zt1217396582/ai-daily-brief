@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-27",
+  "updated": "2026-11-28T12:49+08:00",
+  "stories": [
+    {
+      "title": "波兰与 Palantir 签署约3亿美元协议，采购军事指挥辅助决策软件",
+      "summary": "据路透社11月27日报道，波兰国防部长宣布，波兰已与美国 Palantir 签署为期五年、价值约3亿美元的协议，采购用人工智能辅助军队指挥官决策的软件。部长表示，所有密钥、服务器和信息将始终由波兰军队独家持有。",
+      "impact": "波兰军队指挥官将获得人工智能决策辅助工具，而波兰军方将保留对密钥、服务器和信息的独家控制权。",
+      "source": {
+        "url": "https://news.supwil.com/news/ai-tech/2026-11-27",
+        "title": "2026年11月27日 · AI 与科技圈新闻日报"
+      },
+      "sources": [
+        {
+          "url": "https://news.supwil.com/news/ai-tech/2026-11-27",
+          "title": "2026年11月27日 · AI 与科技圈新闻日报"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "地球大模型引擎SUICE V0.1在北京发布，太空数据中心在轨试验平台同步上线",
+      "summary": "11月27日，地球大模型引擎SUICE V0.1在北京发布，通过旁路架构为通用大语言模型接入遥感能力，支持用自然语言查询卫星影像。依托辰光一号01星建设的太空数据中心在轨技术试验平台同步上线，已完成多款大模型的在轨推理验证。",
+      "impact": "国内商业航天和人工智能研发团队可利用该平台开展模型训练、推理和载荷在轨验证试验。",
+      "source": {
+        "url": "https://satnet.news/story/12483",
+        "title": "地球大模型引擎SUICE V0.1版发布 在轨试验平台上线"
+      },
+      "sources": [
+        {
+          "url": "https://satnet.news/story/12483",
+          "title": "地球大模型引擎SUICE V0.1版发布 在轨试验平台上线"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "usage": {
+    "gpt-6.2-astra": {
+      "requests": 2,
+      "input_tokens": 70200,
+      "output_tokens": 2509,
+      "searches": 10
+    },
+    "gpt-6.2-sol": {
+      "requests": 3,
+      "input_tokens": 8574,
+      "output_tokens": 1100,
+      "searches": 0
+    }
+  },
+  "search_sources": {
+    "中文": [
+      "https://www.ithome.com/1/033/282.htm",
+      "https://www.qbitai.com/2026/11/513211.html",
+      "https://www3.xinhuanet.com/tech/20261127/3bf5b749829a488b941255e83b38132d/c.html",
+      "https://www.ln.edu.hk/cht/news/press-releases/20261127/four-universities-co-host-international-workshop-on-technologies-for-ai-governance-as-lingnan-university-plans-an-institute-to-track-autonomous-ai-economic-activities-and-its-impact-on-financial-markets",
+      "https://www.chinanews.com/gn/2026/11-27/10738591.shtml",
+      "https://www.info.gov.hk/gia/general/202611/27/P2026112700547.htm",
+      "https://mrfig.org/4801",
+      "https://dw-media.tkww.hk/epaper/tkp/20261127/A5_Screen.pdf",
+      "https://axiig.com/news?category=ai-models",
+      "https://www.11gu.cn/2026/11/27/ai%E7%AE%80%E6%8A%A5-2026-11-27/",
+      "https://ytdu.com/ai/a1t1d4/",
+      "https://damodev.csdn.net/6b0a3661e5f4ca4eff9473f1.html",
+      "https://miyunel.com/ai-daily/2026-11/",
+      "https://segmentfault.com/a/1190000048429124",
+      "https://news.supwil.com/news/ai-tech/2026-11-27",
+      "https://ai-daily.muserquantity.cn/d/2026-11-27",
+      "https://radar.suversal.com/daily?date=2026-11-27",
+      "https://dw-media.tkww.hk/epaper/wwp/20261125/a20-1125.pdf",
+      "https://dw-media.tkww.hk/epaper/tkp/20260227/A2_Screen.pdf",
+      "https://szb.cnxz.com.cn/xzrb/pc/att/202611/26/0d975d32-9d38-4279-81c1-21b2f4997f01.pdf",
+      "https://www.hkex.com.hk/News/News-Centre/Equity-Market-Pulse/-/media/3833F3847E8D4F56B14A4ECE0A5AD45A.ashx",
+      "https://kimkj.com/newsletter/paper/daily-briefing-2026-11-26.pdf",
+      "https://zh.wikipedia.org/wiki/%E8%85%BE%E8%AE%AF%E6%B7%B7%E5%85%83",
+      "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E9%A6%99%E6%B8%AF",
+      "https://www.ncsti.gov.cn/kjdt/kjrd/rgzn_kjrd/",
+      "https://mekawire.com/zh/news/robbyant-ant-group-lingbot-map-2-0-lingbot-navi-navigation-model-apache-map-weights-non-commercial-20261127",
+      "https://www.zahml.top/ai-daily-2026-11-27/",
+      "https://ai.hackcv.com/daily/2026-11-27",
+      "https://satnet.news/story/12483",
+      "https://finance.eastmoney.com/a/202611273941046758.html"
+    ],
+    "英文": [
+      "https://eng.stat.gov.tw/News_Content.aspx?n=2320&s=236907",
+      "https://live.euronext.com/en/financial-news/dutch-pm-discuss-match-act-chipmaking-export-controls-trump-g20",
+      "https://webfiles-primary.thecse.com/news_releases/en/3792/4ac78a83-8fef-40c7-8d93-306777ac9a4d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7db34d514465c8f06bca635661a25abb%2F20261127%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261127T152215Z&X-Amz-Expires=300&X-Amz-Signature=51f5d06663e1acd4025d4e872e6c9ac415235afff55c2dacef75ea7a5c6f008d&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B+filename%3D%22Railtown+AI+Introduces+Model+Evaluation+Technology+to+Help+Reduce+Inference+Costs+and+Expand+Model+Choice%22%3B+filename%2A%3DUTF-8%27%27Railtown%2520AI%2520Introduces%2520Model%2520Evaluation%2520Technology%2520to%2520Help%2520Reduce%2520Inference%2520Costs%2520and%2520Expand%2520Model%2520Choice&response-content-type=application%2Fpdf",
+      "https://onthewire.ai/article/sber-releases-gigachat-4-open-weights-an-mit-licensed-708b-model-and-a-non-comme",
+      "https://www.thedailybeast.com/pentagon-pete-hegseth-humiliated-by-major-air-force-breach",
+      "https://www.theatlantic.com/ideas/2026/11/gift-guide-ai-apocalypse/689561/",
+      "https://apnews.com/article/762a613b11bd316384430112cc223ed1",
+      "https://www.techradar.com/pro/sell-compute-because-we-cant-compete-elon-musk-warns-renting-out-spacexs-compute-might-be-more-profitable-than-developing-new-ai-capabilities",
+      "https://time.com/article/2026/11/25/nvidia-megaspeed-china-investment/",
+      "https://llm-events.top/",
+      "https://numptr.com/new/",
+      "https://siliconainews.com/tracker/ai-model-releases?check=unchecked&maker=others",
+      "https://zeronoise.ai/posts/clay-rebuilds-its-agent-around-a-cli-in-a-sandbox-sanfilippo-has-gpt-62-astra-and-fable-52-check-each-other-6b91r44ioph9ssw5/download/pdf",
+      "https://daily.rclabs.in/trackers/policy",
+      "https://tktarun03.github.io/jarvis-ai-news/index.html",
+      "https://techjacksolutions.com/ai-news/technology/?per=100&tag=preprint",
+      "https://aibuzzwire.news/en/category/ai-policy",
+      "https://observatory.mgorsky.net/archive/504/",
+      "https://techjacksolutions.com/ai-news/technology/?tag=ai-product-launch",
+      "https://aidomaindata.com/news/2026-11/",
+      "https://aipolicydaily.org/archive/daily/2026-11-25/",
+      "https://pondero.ai/news/",
+      "https://rt.http3.lol/index.php?q=aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MTEuMzIwNTM",
+      "https://commonsbusiness.parliament.uk/Document/109304/Pdf?subType=Standard",
+      "https://www.alvarezandmarsal.com/printpdf/91491--en",
+      "https://www.gulf-times.com/gulftimes/uploads/pdf/2026/11/26/main-20261126-1-1795642704.pdf?ts=1795642704",
+      "https://www.reddit.com/r/u_maurotommasi/comments/1y6c3mr/top_10_product_launches_and_updates_thu_26_nov/",
+      "https://www.reddit.com/r/MachineLearning/comments/1xlmffv/d_selfpromotion_thread/",
+      "https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence_risks_in_global_finance",
+      "https://en.wikipedia.org/wiki/Jensen_Huang_scandal"
+    ]
+  }
+}
